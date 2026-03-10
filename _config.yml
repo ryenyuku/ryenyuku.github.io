@@ -21,7 +21,7 @@
 title: リェンーゆく's Blog
 email: teamworks1732@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal blog to satisfy the need of writing something from my head.
+  A personal blog to serve as a medium for me to write something from my head.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryenyuku.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ryenyuku
