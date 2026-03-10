@@ -19,18 +19,38 @@
 # in the templates via {{ site.myvariable }}.
 
 title: リェンーゆく's Blog
-email: teamworks1732@gmail.com
+
+author:
+  name: リェンーゆく
+  email: teamworks1732@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog to serve as a medium for me to write something from my head.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryenyuku.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ryenyuku
-github_username:  ryenyuku
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+minima:
+  skin: auto
+  nav_pages:
+    - about.md
+  social_links:
+    - title: Twitter
+      icon: x-twitter
+      url: "https://twitter.com/ryenyuku"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/ryenyuku"
+    - title: Telegram
+      icon: telegram
+      url: "https://t.me/ryenyuku"
+    - title: Instagram
+      icon: instagram
+      url: "https://www.instagram.com/yusufrafir"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
